@@ -1,6 +1,9 @@
 # Divinitus
 
 # Notes
+[to not forget that uname & passwd can be stored locally]
+git config credential.helper store
+
 During SFML debug compilation
 the following should added to CMakeLists.txt
 
