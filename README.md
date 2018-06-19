@@ -27,7 +27,11 @@ the following should added to CMakeLists.txt
 >endif(CMAKE_CXX_STANDARD)
 
 Build & Run sample:
+
 clang++ -c -std=c++14 main.cpp
+
 clang++ -std=c++14 main.o -o sfml-app -lsfml-grphics -lsfml-window -lsfml-system
+
 export LD_LIBRARY_PATH=/usr/local/lib
+
 ./sfml-app
